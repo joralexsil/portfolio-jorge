@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #E4DFD1;
+  background-image:
+    linear-gradient(rgba(30, 42, 50, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 42, 50, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+  color: #1E2A32;
+}
+
+.entry-number {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background-color: #9C6B30;
+  color: #E4DFD1;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #9C6B30;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
