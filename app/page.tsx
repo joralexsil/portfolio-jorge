@@ -117,7 +117,7 @@ export default function Home() {
             <a href="#projetos" className="hover:text-brass transition-colors">Projetos</a>
             <a href="#contacto" className="hover:text-brass transition-colors">Contacto</a>
           </nav>
-          
+          <a
             href="#contacto"
             className="text-sm border border-ink px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
           >
@@ -141,13 +141,13 @@ export default function Home() {
           os sistemas e automações que essas empresas precisam e não têm.
         </p>
         <div className="flex flex-wrap gap-4">
-          
+          <a
             href="#contacto"
             className="bg-ink text-paper px-6 py-3 text-sm hover:bg-brass transition-colors"
           >
             Falar sobre um projeto
           </a>
-          
+          <a
             href="#projetos"
             className="px-6 py-3 text-sm text-ink border border-ink/25 hover:border-ink transition-colors"
           >
@@ -254,13 +254,13 @@ export default function Home() {
             Respondo diretamente — sem intermediários.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            
+            <a
               href="mailto:o-teu-email@dominio.pt"
               className="bg-ink text-paper px-7 py-3.5 text-sm hover:bg-brass transition-colors"
             >
               o-teu-email@dominio.pt
             </a>
-            
+            <a
               href="https://www.linkedin.com/in/o-teu-utilizador"
               target="_blank"
               rel="noreferrer"
